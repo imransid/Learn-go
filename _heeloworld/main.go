@@ -40,4 +40,19 @@ func main() {
 		fmt.Println(name, " You are not Admin")
 	}
 
+	// switch
+	fmt.Println("SWITCH")
+
+	i := 5
+
+	switch i {
+	case 1:
+		fmt.Println("ONE")
+	case 2:
+		fmt.Println("TWO")
+	case 3:
+		fmt.Println("THREE")
+	default
+	}fmt.Println("FIVE")
+
 }
