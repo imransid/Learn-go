@@ -8,10 +8,13 @@ func main() {
 
 	fmt.Println("hello world " + name)
 
-
-	
-
+	// loop
 	for i := 1; i < 3; i++ {
+		fmt.Println(i)
+	}
+
+	// range
+	for i := range 3 {
 		fmt.Println(i)
 	}
 }
