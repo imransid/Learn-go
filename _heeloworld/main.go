@@ -32,4 +32,12 @@ func main() {
 		fmt.Println("ELDER")
 	}
 
+	// there was no ternary operator in golang
+
+	if name := "imran"; name == "imran" {
+		fmt.Println("WELCOME ", name)
+	} else {
+		fmt.Println(name, " You are not Admin")
+	}
+
 }
