@@ -52,7 +52,8 @@ func main() {
 		fmt.Println("TWO")
 	case 3:
 		fmt.Println("THREE")
-	default
-	}fmt.Println("FIVE")
+	default:
+		fmt.Println("FIVE")
+	}
 
 }
